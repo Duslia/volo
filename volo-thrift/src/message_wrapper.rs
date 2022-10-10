@@ -12,7 +12,7 @@ use crate::{
 
 #[derive(Debug)]
 pub struct MessageMeta {
-    pub(crate) msg_type: TMessageType,
+    pub msg_type: TMessageType,
     pub(crate) method: smol_str::SmolStr,
     pub(crate) seq_id: i32,
 }
